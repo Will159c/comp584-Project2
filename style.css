@@ -55,18 +55,31 @@ div img {
 	background-color: #FFFCE6;
 }
 
+.col-3 {
+	background-color: #00ff2a;
+	flex: 3;
+}
+
+.col-4 {
+	background-color: #ff0000;
+	flex: 4;
+}
+
+.col-5 {
+	background-color: #ff00ea;
+	flex: 2;
+}
+
 /* Tablet Landscape Screen Sizes */
 @media only screen and (min-width: 480px)  {
 	
-  .col-1,
-  .col-2 {
+    .col-1, .col-3, .col-4, .col-5, .col-2 {
 		flex: 0 0 44%;
 	}
+	.col-4 {
+    flex: 0 0 92%; 
+	}
   
-  
-
-
-
 }
 /* Desktop screen Sizes */
 @media only screen and (min-width: 768px) {
@@ -76,10 +89,11 @@ div img {
 		flex: 0 0 20%;
 	}
   
-  
-  
 	.col-2 {
 		flex: 0 0 44%;
 	}
 
+	.col-3 {
+    	flex: 0 0 68%; 
+  	}
 }
