@@ -78,7 +78,7 @@ div img {
 /* Tablet Landscape Screen Sizes */
 @media only screen and (min-width: 480px)  {
 	
-    .col-1, .col-3, .col-4, .col-5, .col-2 {
+    .col-1, .col-3, .col-4, .col-5, .col-2, .col-6{
 		flex: 0 0 44%;
 	}
 	.col-4 {
@@ -101,6 +101,10 @@ div img {
 	.col-3 {
     	flex: 0 0 68%; 
   	}
+
+	.col-6 {
+		flex: 0 0 15%; 
+	}
 }
 
 [class*="col-"] {
